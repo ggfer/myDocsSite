@@ -1,0 +1,18 @@
+# mkdocs.yaml
+site_name: 一个有趣的P站
+pages:
+    - Home: index.md
+    - LeetCode :
+      - 01 : LeetCode/LeeTcode.md
+      - 02 : LeetCode/LeeTcode copy.md
+    - About: about.md
+
+
+theme: material
+markdown_extensions:
+    - attr_list
+    - codehilite:
+        linenums: True
+    - admonition
+    - pymdownx.tasklist
+    - pymdownx.tilde
