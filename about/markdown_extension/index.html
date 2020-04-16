@@ -1,0 +1,852 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1, mkdocs-material-5.1.0">
+    
+    
+      
+        <title>PyMdown - 一个有趣的P站</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.89dc9fe3.min.css">
+      
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#here-is-the-template-page" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="一个有趣的P站" class="md-header-nav__button md-logo" aria-label="一个有趣的P站">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,8A3,3 0 0,0 15,5A3,3 0 0,0 12,2A3,3 0 0,0 9,5A3,3 0 0,0 12,8M12,11.54C9.64,9.35 6.5,8 3,8V19C6.5,19 9.64,20.35 12,22.54C14.36,20.35 17.5,19 21,19V8C17.5,8 14.36,9.35 12,11.54Z" /></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            一个有趣的P站
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              PyMdown
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" /></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="一个有趣的P站" class="md-nav__button md-logo" aria-label="一个有趣的P站">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,8A3,3 0 0,0 15,5A3,3 0 0,0 12,2A3,3 0 0,0 9,5A3,3 0 0,0 12,8M12,11.54C9.64,9.35 6.5,8 3,8V19C6.5,19 9.64,20.35 12,22.54C14.36,20.35 17.5,19 21,19V8C17.5,8 14.36,9.35 12,11.54Z" /></svg>
+
+    </a>
+    一个有趣的P站
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      LeetCode
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="LeetCode" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        LeetCode
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../leetcode/leetcodeMock01/" title="001-099" class="md-nav__link">
+      001-099
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../leetcode/leetcodeMock02/" title="100-199" class="md-nav__link">
+      100-199
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../leetcode/leetcodeMock03/" title="200-299" class="md-nav__link">
+      200-299
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../java/java01/" title="Java" class="md-nav__link">
+      Java
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../project/project01/" title="项目" class="md-nav__link">
+      项目
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+    
+    <label class="md-nav__link" for="nav-5">
+      关于
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="关于" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        关于
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        PyMdown
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,9H17V7H3V9M3,13H17V11H3V13M3,17H17V15H3V17M19,17H21V15H19V17M19,7V9H21V7H19M19,13H21V11H19V13Z" /></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="PyMdown" class="md-nav__link md-nav__link--active">
+      PyMdown
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-headings" class="md-nav__link">
+    1. Headings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-quoting-text" class="md-nav__link">
+    2. Quoting text
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-quoting-code" class="md-nav__link">
+    3. Quoting code
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-links" class="md-nav__link">
+    4. Links
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-relative-links" class="md-nav__link">
+    5. Relative Links
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-lists" class="md-nav__link">
+    6. Lists
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-nested-lists" class="md-nav__link">
+    7. Nested Lists
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-task-lists" class="md-nav__link">
+    8. Task Lists
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-strikethrough" class="md-nav__link">
+    9. Strikethrough
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-tables" class="md-nav__link">
+    10. Tables
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-images" class="md-nav__link">
+    11. Images
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-tasklist" class="md-nav__link">
+    12. 扩展 - Tasklist
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-tilde" class="md-nav__link">
+    扩展 - Tilde
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#superfences" class="md-nav__link">
+    SuperFences
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mkdocs/" title="mkdocs" class="md-nav__link">
+      mkdocs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Typora/" title="Typora" class="md-nav__link">
+      Typora
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-headings" class="md-nav__link">
+    1. Headings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-quoting-text" class="md-nav__link">
+    2. Quoting text
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-quoting-code" class="md-nav__link">
+    3. Quoting code
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-links" class="md-nav__link">
+    4. Links
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-relative-links" class="md-nav__link">
+    5. Relative Links
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-lists" class="md-nav__link">
+    6. Lists
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-nested-lists" class="md-nav__link">
+    7. Nested Lists
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-task-lists" class="md-nav__link">
+    8. Task Lists
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-strikethrough" class="md-nav__link">
+    9. Strikethrough
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-tables" class="md-nav__link">
+    10. Tables
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-images" class="md-nav__link">
+    11. Images
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-tasklist" class="md-nav__link">
+    12. 扩展 - Tasklist
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-tilde" class="md-nav__link">
+    扩展 - Tilde
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#superfences" class="md-nav__link">
+    SuperFences
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h1 id="here-is-the-template-page">Here is the template page</h1>
+<h2 id="1-headings">1. Headings</h2>
+<div class="highlight"><pre><span></span><code># The largest heading
+## The second largest heading
+### The third largest heading
+#### The fourth largest heading
+##### The fifth largest heading
+###### The smallest heading
+</code></pre></div>
+
+<h2 id="2-quoting-text">2. Quoting text</h2>
+<p><div class="highlight"><pre><span></span><code>&gt; here is the quoting text
+</code></pre></div>
+You can quote text by using '&gt;'</p>
+<blockquote>
+<p>here is the quoting text</p>
+</blockquote>
+<h2 id="3-quoting-code">3. Quoting code</h2>
+<div class="highlight"><pre><span></span><code>class solution{
+    public string twosum(){
+        return &quot;0&quot;;
+    }
+}
+</code></pre></div>
+
+<ul>
+<li>Here is the JavaScript Code Sample
+<div class="highlight"><pre><span></span><code><span class="kr">export</span> <span class="kr">const</span> <span class="nx">importProdWithBom</span> <span class="o">=</span> <span class="nx">async</span> <span class="p">(</span><span class="nx">bomData</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">axios</span><span class="p">.</span><span class="nx">post</span><span class="p">(</span><span class="sb">`</span><span class="si">${</span><span class="nx">API_URL</span><span class="si">}</span><span class="sb">/products`</span><span class="p">,</span> <span class="nx">bomData</span><span class="p">).</span><span class="nx">then</span><span class="p">((</span><span class="nx">response</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="nx">response</span><span class="p">.</span><span class="nx">data</span><span class="p">;</span>
+    <span class="p">},</span> <span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="nx">error</span> <span class="o">&amp;&amp;</span> <span class="nx">error</span><span class="p">.</span><span class="nx">response</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="nx">error</span><span class="p">.</span><span class="nx">response</span><span class="p">.</span><span class="nx">data</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">});</span>
+<span class="p">};</span>
+</code></pre></div></li>
+</ul>
+<h2 id="4-links">4. Links</h2>
+<p>You can create an inline link by wrapping link text in brackets <code>[]</code>, and then wrapping the URL in parentheses <code>()</code>  </p>
+<blockquote>
+<p>This site was built using <code>[GitHub Pages](https://pages.github.com/)</code>.  </p>
+<p>This site was built using <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+</blockquote>
+<h2 id="5-relative-links">5. Relative Links</h2>
+<p>You can define relative links and image paths in your rendered file</p>
+<blockquote>
+<p><code>[Tutorial for this project(../mkdocs-tutorial/mkdocs-tutorial.md)</code><br />
+<a href="../mkdocs-tutorial/mkdocs-tutorial.md">Tutorial for this project</a></p>
+</blockquote>
+<h2 id="6-lists">6. Lists</h2>
+<p>Unordered List with <code>-</code> or <code>*</code>
+<div class="highlight"><pre><span></span><code>- George Washington
+- John Adams
+- Thomas Jefferson
+</code></pre></div>
+- George Washington
+- John Adams
+- Thomas Jefferson</p>
+<h2 id="7-nested-lists">7. Nested Lists</h2>
+<p>To create a nested list by indenting one or more list items below another item.
+<div class="highlight"><pre><span></span><code>1. First list item
+   - First nested list item
+    - Second nested list item
+</code></pre></div>
+1. First list item
+   - First nested list item
+     - Second nested list item</p>
+<h2 id="8-task-lists">8. Task Lists</h2>
+<p>To create a task list, preface list items with a regular space character followed by <code>[]</code>. To mark a task as complete, use <code>[x]</code>.
+<div class="highlight"><pre><span></span><code>- [x] Finish my changes
+- [ ] Push my commits to GitHub
+- [ ] Open a pull request
+</code></pre></div>
+- [x] Finish my changes
+- [ ] Push my commits to GitHub
+- [ ] Open a pull request</p>
+<h2 id="9-strikethrough">9. Strikethrough</h2>
+<p><div class="highlight"><pre><span></span><code>- [x] Finish my changes
+- [ ] Push my commits to GitHub
+- [ ] ~~Open a pull request~~
+</code></pre></div>
+- [x] Finish my changes
+- [ ] Push my commits to GitHub
+- [ ] <del>Open a pull request</del></p>
+<h2 id="10-tables">10. Tables</h2>
+<p>To create a table, use three or more hyphens <code>---</code> to create each column’s header, and use pipes <code>|</code> to separate each column. You can optionally add pipes on either end of the table.</p>
+<div class="highlight"><pre><span></span><code>| Name    | Age | Blog |
+| ------- | --- | ---- |
+| Peter   | 20  |[Peter](http://www.baidu.com) |
+| Trump   | 33  |[Trump](http://www.google.com)|
+</code></pre></div>
+
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Age</th>
+<th>Blog</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Peter</td>
+<td>20</td>
+<td><a href="http://www.baidu.com">Peter</a></td>
+</tr>
+<tr>
+<td>Trump</td>
+<td>33</td>
+<td><a href="http://www.google.com">Trump</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="11-images">11. Images</h2>
+<p>To create an image, use <code>![image-alt](image-href 'image-title')</code><br />
+The <code>alt</code> attribute provides alternative information for an image if a user for some reason cannot view it.<br />
+The <code>title</code> attribute is shown along with the image, typically as a hover tooltip.
+<div class="highlight"><pre><span></span><code>![picture-name](screenshots/architecture.png &#39;architecture-title&#39;)
+</code></pre></div></p>
+<h2 id="12-tasklist">12. 扩展 - Tasklist</h2>
+<p><div class="highlight"><pre><span></span><code>- [X] item 1
+    * [X] item A
+    * [ ] item B
+        more text
+        + [x] item a
+        + [ ] item b
+        + [x] item c
+    * [X] item C
+- [ ] item 2
+- [ ] item 3
+</code></pre></div>
+- [X] item 1
+    * [X] item A
+    * [ ] item B
+        more text
+        + [x] item a
+        + [ ] item b
+        + [x] item c
+    * [X] item C
+- [ ] item 2
+- [ ] <del>item 3</del></p>
+<h2 id="-tilde">扩展 - Tilde</h2>
+<p>CH<sub>3</sub>CH<sub>2</sub>OH</p>
+<p>text<sub>a subscript</sub></p>
+<div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Tab 1</label><div class="tabbed-content">
+<p>Markdown <strong>content</strong>.</p>
+<p>Multiple paragraphs.</p>
+</div>
+<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Tab 2</label><div class="tabbed-content">
+<p>More Markdown <strong>content</strong>.</p>
+<ul>
+<li>list item a</li>
+<li>list item b</li>
+</ul>
+</div>
+</div>
+<h2 id="superfences">SuperFences</h2>
+<p><div class="highlight"><pre><span></span><code>graph TB
+    c1--&gt;a2
+    subgraph one
+    a1--&gt;a2
+    end
+    subgraph two
+    b1--&gt;b2
+    end
+    subgraph three
+    c1--&gt;c2
+    end
+</code></pre></div>
+mermaid
+graph TB
+    c1--&gt;a2
+    subgraph one
+    a1--&gt;a2
+    end
+    subgraph two
+    b1--&gt;b2
+    end
+    subgraph three
+    c1--&gt;c2
+    end</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../../project/project01/" title="项目" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                项目
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../mkdocs/" title="mkdocs" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                mkdocs
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" /></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.36cbf620.min.js"></script>
+      <script src="../../assets/javascripts/bundle.00c583dd.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.7f7c8775.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
