@@ -48,7 +48,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#about" class="md-skip">
+        <a href="#about-mkdocs" class="md-skip">
           Skip to content
         </a>
       
@@ -224,9 +224,56 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        About
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,9H17V7H3V9M3,13H17V11H3V13M3,17H17V15H3V17M19,17H21V15H19V17M19,7V9H21V7H19M19,13H21V11H19V13Z" /></svg>
+        </span>
+      </label>
+    
     <a href="./" title="About" class="md-nav__link md-nav__link--active">
       About
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#commands" class="md-nav__link">
+    Commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-layout" class="md-nav__link">
+    Project layout
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#theme" class="md-nav__link">
+    Theme
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -248,6 +295,37 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#commands" class="md-nav__link">
+    Commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-layout" class="md-nav__link">
+    Project layout
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#theme" class="md-nav__link">
+    Theme
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -262,8 +340,34 @@
                   
                 
                 
-                <h1 id="about">About</h1>
-<p>这是一个说明页</p>
+                <h1 id="about-mkdocs">About mkdocs</h1>
+<p>For full documentation visit <a href="https://mkdocs.org">mkdocs.org</a>.</p>
+<h2 id="commands">Commands</h2>
+<ul>
+<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
+<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
+<li><code>mkdocs build</code> - Build the documentation site called <strong>./site</strong>.</li>
+<li><code>mkdocs gh-deploy</code> push your document site to github pages</li>
+<li><code>mkdocs help</code> - Print this help message.</li>
+</ul>
+<blockquote>
+<p>Tips: Add <code>echo "site/" &gt;&gt; .gitignore</code> to .gitignore file</p>
+</blockquote>
+<h2 id="project-layout">Project layout</h2>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code><span class="err">mkdocs.yml    # The configuration file.</span>
+<span class="err">docs/</span>
+<span class="err">    index.md  # The documentation homepage.</span>
+<span class="err">    ...       # Other markdown pages, images and other files.</span>
+<span class="c">theme:...</span>
+</code></pre></div>
+</td></tr></table>
+
+<h2 id="theme">Theme</h2>
+<p><code>pip install mkdocs-material</code> and <strong>Add</strong> it to mkdocs.yml.</p>
                 
               
               
