@@ -1,5 +1,5 @@
 # mkdocs.yaml
-site_name: 一个有趣的P站
+site_name: Pandora
 pages:
     - Home: index.md
     - DesignPatterns: DesignPatterns/designPatterns.md

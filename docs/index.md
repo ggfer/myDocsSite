@@ -1,17 +1,42 @@
-# Welcome to MkDocs
+# Pandora
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+## 目的
 
-## Commands
+- 集思广益，并肩前行，保持进步。
+- 拿金字塔顶的人作为目标和计划，是不切实际的。
+- 拒绝裸泳。现在讲台面上和台面下。台面下大家都在努力，潮汐褪去，害怕只有自己在裸泳吗？
+- "Stay Hungry. Stay Foolish." --乔布斯。[保持愚蠢](https://www.ruanyifeng.com/blog/2010/07/stay_foolish.html)
+- 学的东西能够讲出来写出来的才是自己的
+- 有意识构建个人领域知识护城河，形成知识壁垒
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
 
-## Project layout
+## 成员定位
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+1. 个人工作者
+2. 表达者
+3. 倾听者
+
+## 主题内容
+
+1. LeetCode
+     - 周赛？
+         - 节奏：下周第一次，陈双周参加一次
+         - 目的：保持手感，小赛怡情
+     - 刷题节奏
+         - 看自己
+
+2. 构建通用知识补全计划
+     - 专题内容
+         算法与数据结构，项目，算法，领域知识，等，各自补充专题
+
+3. 定期交流读过的书(非虚构类书籍)
+     - 技术分享（主）：如blog、框架、新特性、书籍或者书上某一章、新工具等。
+     - 读书推荐：写个书名，大概分享下内容。
+   
+4. 记录形式
+     - Onenote。容易记忆，同步好，复制粘贴容易。无法和md兼容
+     - 博客（先弄好前者）。mkdocs + git + typora。
+   
+5. 推进和维护
+     - 轮流负责计划（按月轮换）：胡 李 陈
+     - 按专题推进

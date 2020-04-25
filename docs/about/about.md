@@ -19,12 +19,14 @@
 
 ## 分支作用
 
-- master分支：
-  1. 本地调试与查看，`mkdocs serve`
-  2. 同步。
+1. master分支：
 
-- gh-pages分支：
-    1. 仅仅是`mkdocs gh-deploy`部署到公网页面上，`mkdocs gh-deploy`
+  - 本地调试与查看，`mkdocs serve`
+  - 贡献者同步。
+
+2. gh-pages分支：
+
+    - 仅仅是`mkdocs gh-deploy`部署到公网页面上，`mkdocs gh-deploy`
 
 ## 其他
 
