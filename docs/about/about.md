@@ -7,7 +7,7 @@
   - `mkdocs serve` to preview documentation
   - `mkdocs build` to creat a new directory called **./site**
   - `mkdocs gh-deploy` push your document site to github pages
-  - `sudo easy_install pip` and `pip install mkdocs-bootstrap`
+  - `sudo easy_install pip` and `pip install mkdocs-material`
   - `mkdocs help` - Print this help message.
 
 ## Project layout
@@ -20,8 +20,8 @@
 ## 分支作用
 
 - master分支：
-    1. 本地调试与查看，`mkdocs serve`
-    2. 同步。
+  1. 本地调试与查看，`mkdocs serve`
+  2. 同步。
 
 - gh-pages分支：
     1. 仅仅是`mkdocs gh-deploy`部署到公网页面上，`mkdocs gh-deploy`
