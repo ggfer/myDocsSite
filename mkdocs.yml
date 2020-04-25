@@ -2,10 +2,13 @@
 site_name: 一个有趣的P站
 pages:
     - Home: index.md
-    - LeetCode :
-      - 01 : LeetCode/LeeTcode.md
-      - 02 : LeetCode/LeeTcode copy.md
-    - About: about.md
+    - DesignPatterns: DesignPatterns/designPatterns.md
+    # - LeetCode :
+    #   - 01 : LeetCode/LeeTcode.md
+    #   - 02 : LeetCode/LeeTcode copy.md
+    - About:
+        - mkdocs: about/about.md
+
 
 
 theme: material
